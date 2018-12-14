@@ -1,0 +1,48 @@
+<!--等同于创建一个UIWindow-->
+<app>
+    <!--等同于创建一个UINavigationController,并且将背景色设为 white-->
+    <nav background-color="white">
+        <!--等同于创建一个UIViewController，并且将页面的title设为"GIC教程"-->
+        <page title="GIC教程">
+            <nav-bar title="sdss">
+                <right-buttons>
+                    <lable text="dsd" underline-style="'0x8000'" />
+                </right-buttons>
+            </nav-bar>
+            <behaviors>
+                <bev-router-link />
+            </behaviors>
+            <list>
+                <animations>
+                    <anim-attribute />
+                    <anim-transforms>
+                        <anim-move from="" />
+                    </anim-transforms>
+                </animations>
+                <header>
+                    <canvas height="60" background-color="orange">
+                        <path>
+                            <line>
+                                <point x="0" y="0"/>
+                                <point x="100" y="20"/>
+                            </line>
+                        </path>
+                        <path close-lines="true" fill-color="gray" line-width="0">
+                            <arc center="20" radius="20" end-angle="270" >
+                                <animations>
+                                    <anim-attribute attribute-name="end-angle" from="0" to="360" on="1" repeat="-1"/>
+                                </animations>
+                            </arc>
+                        </path>
+                    </canvas>
+                </header>
+                <section>
+                    
+                    <for>
+                        <list-item />
+                    </for>
+                </section>
+            </list>
+        </page>
+    </nav>
+</app>
