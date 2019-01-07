@@ -1,5 +1,6 @@
-GICTutorial/.idea
 Pods
 Podfile.lock
-GICTutorial/.vscode
+GICTutorial/build
+GICTutorial.xcworkspace/xcshareddata
+GICTutorial.xcodeproj/xcuserdata
 GICTutorial.xcworkspace/xcuserdata

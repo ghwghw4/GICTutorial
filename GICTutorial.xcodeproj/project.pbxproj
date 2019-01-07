@@ -7,138 +7,155 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		371B1DD921BE73FF00538C64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 371B1DD821BE73FF00538C64 /* AppDelegate.m */; };
-		371B1DDC21BE73FF00538C64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 371B1DDB21BE73FF00538C64 /* ViewController.m */; };
-		371B1DDF21BE73FF00538C64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371B1DDD21BE73FF00538C64 /* Main.storyboard */; };
-		371B1DE121BE740100538C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371B1DE021BE740100538C64 /* Assets.xcassets */; };
-		371B1DE421BE740100538C64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371B1DE221BE740100538C64 /* LaunchScreen.storyboard */; };
-		371B1DE721BE740100538C64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 371B1DE621BE740100538C64 /* main.m */; };
-		371B1DEE21BF4C4E00538C64 /* project in Resources */ = {isa = PBXBuildFile; fileRef = 371B1DED21BF4C4D00538C64 /* project */; };
-		371B1DF421BF62A400538C64 /* GICXMLLayoutDevTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 371B1DF221BF62A400538C64 /* GICXMLLayoutDevTools.m */; };
-		D18100E1ADB2FBEE2354F472 /* Pods_GICTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D20656CD110F96C219230E3 /* Pods_GICTutorial.framework */; };
+		3790F49621D319E40060EA85 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3790F49521D319E40060EA85 /* JavaScriptCore.framework */; };
+		37D4FCA321CA336E00496B69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D4FCA221CA336E00496B69 /* AppDelegate.m */; };
+		37D4FCA621CA336E00496B69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D4FCA521CA336E00496B69 /* ViewController.m */; };
+		37D4FCA921CA336E00496B69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D4FCA721CA336E00496B69 /* Main.storyboard */; };
+		37D4FCAB21CA336F00496B69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37D4FCAA21CA336F00496B69 /* Assets.xcassets */; };
+		37D4FCAE21CA336F00496B69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D4FCAC21CA336F00496B69 /* LaunchScreen.storyboard */; };
+		37D4FCB121CA336F00496B69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D4FCB021CA336F00496B69 /* main.m */; };
+		37D4FCCE21CB2EAF00496B69 /* GICXMLLayoutDevTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D4FCCC21CB2EAF00496B69 /* GICXMLLayoutDevTools.m */; };
+		37D4FCD621CB7C6900496B69 /* GICFileWatcher.html in Resources */ = {isa = PBXBuildFile; fileRef = 37D4FCD521CB7C6900496B69 /* GICFileWatcher.html */; };
+		37D4FCDC21CB82F700496B69 /* PackageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D4FCDB21CB82F700496B69 /* PackageManager.m */; };
+		37D4FCEC21CC869700496B69 /* project in Resources */ = {isa = PBXBuildFile; fileRef = 37D4FCEB21CC869700496B69 /* project */; };
+		37D4FCEF21CC86B300496B69 /* JSAPIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D4FCED21CC86B200496B69 /* JSAPIExtension.m */; };
+		AA4C448539201CDE4645A994 /* Pods_GICTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BE371FC1A9E9275C2F3ECC /* Pods_GICTutorial.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		371B1DD421BE73FF00538C64 /* GICTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GICTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		371B1DD721BE73FF00538C64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		371B1DD821BE73FF00538C64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		371B1DDA21BE73FF00538C64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		371B1DDB21BE73FF00538C64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		371B1DDE21BE73FF00538C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		371B1DE021BE740100538C64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		371B1DE321BE740100538C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		371B1DE521BE740100538C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		371B1DE621BE740100538C64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		371B1DED21BF4C4D00538C64 /* project */ = {isa = PBXFileReference; lastKnownFileType = folder; path = project; sourceTree = "<group>"; };
-		371B1DF221BF62A400538C64 /* GICXMLLayoutDevTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GICXMLLayoutDevTools.m; sourceTree = "<group>"; };
-		371B1DF321BF62A400538C64 /* GICXMLLayoutDevTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GICXMLLayoutDevTools.h; sourceTree = "<group>"; };
-		4D20656CD110F96C219230E3 /* Pods_GICTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GICTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F9A86772A7026CDBAE76975 /* Pods-GICTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GICTutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-GICTutorial/Pods-GICTutorial.release.xcconfig"; sourceTree = "<group>"; };
-		C73B216942A7766D9332A549 /* Pods-GICTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GICTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GICTutorial/Pods-GICTutorial.debug.xcconfig"; sourceTree = "<group>"; };
+		1744B769CEFB5A5D60860BB2 /* Pods-GICTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GICTutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-GICTutorial/Pods-GICTutorial.release.xcconfig"; sourceTree = "<group>"; };
+		2664D5E9FD19C1DB134EFBE1 /* Pods-GICTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GICTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GICTutorial/Pods-GICTutorial.debug.xcconfig"; sourceTree = "<group>"; };
+		3790F49521D319E40060EA85 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		37D4FC9E21CA336E00496B69 /* GICTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GICTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D4FCA121CA336E00496B69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37D4FCA221CA336E00496B69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37D4FCA421CA336E00496B69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		37D4FCA521CA336E00496B69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37D4FCA821CA336E00496B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37D4FCAA21CA336F00496B69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37D4FCAD21CA336F00496B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37D4FCAF21CA336F00496B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37D4FCB021CA336F00496B69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37D4FCCC21CB2EAF00496B69 /* GICXMLLayoutDevTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GICXMLLayoutDevTools.m; sourceTree = "<group>"; };
+		37D4FCCD21CB2EAF00496B69 /* GICXMLLayoutDevTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GICXMLLayoutDevTools.h; sourceTree = "<group>"; };
+		37D4FCD521CB7C6900496B69 /* GICFileWatcher.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = GICFileWatcher.html; sourceTree = "<group>"; };
+		37D4FCDA21CB82F600496B69 /* PackageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackageManager.h; sourceTree = "<group>"; };
+		37D4FCDB21CB82F700496B69 /* PackageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackageManager.m; sourceTree = "<group>"; };
+		37D4FCEB21CC869700496B69 /* project */ = {isa = PBXFileReference; lastKnownFileType = folder; name = project; path = build/project; sourceTree = "<group>"; };
+		37D4FCED21CC86B200496B69 /* JSAPIExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSAPIExtension.m; sourceTree = "<group>"; };
+		37D4FCEE21CC86B200496B69 /* JSAPIExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAPIExtension.h; sourceTree = "<group>"; };
+		D3BE371FC1A9E9275C2F3ECC /* Pods_GICTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GICTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		371B1DD121BE73FF00538C64 /* Frameworks */ = {
+		37D4FC9B21CA336E00496B69 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D18100E1ADB2FBEE2354F472 /* Pods_GICTutorial.framework in Frameworks */,
+				3790F49621D319E40060EA85 /* JavaScriptCore.framework in Frameworks */,
+				AA4C448539201CDE4645A994 /* Pods_GICTutorial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		26BC59ADB289920DD0C430EB /* Frameworks */ = {
+		3790F49421D319E40060EA85 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4D20656CD110F96C219230E3 /* Pods_GICTutorial.framework */,
+				3790F49521D319E40060EA85 /* JavaScriptCore.framework */,
+				D3BE371FC1A9E9275C2F3ECC /* Pods_GICTutorial.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		371B1DCB21BE73FF00538C64 = {
+		37D4FC9521CA336E00496B69 = {
 			isa = PBXGroup;
 			children = (
-				371B1DD621BE73FF00538C64 /* GICTutorial */,
-				371B1DD521BE73FF00538C64 /* Products */,
-				F1EA457B2DF27646289E21E0 /* Pods */,
-				26BC59ADB289920DD0C430EB /* Frameworks */,
+				37D4FCA021CA336E00496B69 /* GICTutorial */,
+				37D4FC9F21CA336E00496B69 /* Products */,
+				3790F49421D319E40060EA85 /* Frameworks */,
+				B2FB3237A50234287F1D3F13 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
-		371B1DD521BE73FF00538C64 /* Products */ = {
+		37D4FC9F21CA336E00496B69 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				371B1DD421BE73FF00538C64 /* GICTutorial.app */,
+				37D4FC9E21CA336E00496B69 /* GICTutorial.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		371B1DD621BE73FF00538C64 /* GICTutorial */ = {
+		37D4FCA021CA336E00496B69 /* GICTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				371B1DF521BF656300538C64 /* gic */,
-				371B1DED21BF4C4D00538C64 /* project */,
-				371B1DD721BE73FF00538C64 /* AppDelegate.h */,
-				371B1DD821BE73FF00538C64 /* AppDelegate.m */,
-				371B1DDA21BE73FF00538C64 /* ViewController.h */,
-				371B1DDB21BE73FF00538C64 /* ViewController.m */,
-				371B1DDD21BE73FF00538C64 /* Main.storyboard */,
-				371B1DE021BE740100538C64 /* Assets.xcassets */,
-				371B1DE221BE740100538C64 /* LaunchScreen.storyboard */,
-				371B1DE521BE740100538C64 /* Info.plist */,
-				371B1DE621BE740100538C64 /* main.m */,
+				37D4FCEB21CC869700496B69 /* project */,
+				37D4FCB721CA37FB00496B69 /* gic */,
+				37D4FCA121CA336E00496B69 /* AppDelegate.h */,
+				37D4FCA221CA336E00496B69 /* AppDelegate.m */,
+				37D4FCA421CA336E00496B69 /* ViewController.h */,
+				37D4FCA521CA336E00496B69 /* ViewController.m */,
+				37D4FCDA21CB82F600496B69 /* PackageManager.h */,
+				37D4FCDB21CB82F700496B69 /* PackageManager.m */,
+				37D4FCA721CA336E00496B69 /* Main.storyboard */,
+				37D4FCAA21CA336F00496B69 /* Assets.xcassets */,
+				37D4FCAC21CA336F00496B69 /* LaunchScreen.storyboard */,
+				37D4FCAF21CA336F00496B69 /* Info.plist */,
+				37D4FCB021CA336F00496B69 /* main.m */,
 			);
 			path = GICTutorial;
 			sourceTree = "<group>";
 		};
-		371B1DF121BF62A400538C64 /* hotreload */ = {
+		37D4FCB721CA37FB00496B69 /* gic */ = {
 			isa = PBXGroup;
 			children = (
-				371B1DF221BF62A400538C64 /* GICXMLLayoutDevTools.m */,
-				371B1DF321BF62A400538C64 /* GICXMLLayoutDevTools.h */,
-			);
-			path = hotreload;
-			sourceTree = "<group>";
-		};
-		371B1DF521BF656300538C64 /* gic */ = {
-			isa = PBXGroup;
-			children = (
-				371B1DF821BF65DB00538C64 /* behaviors */,
-				371B1DF721BF65CE00538C64 /* elements */,
-				371B1DF621BF65B800538C64 /* js */,
-				371B1DF121BF62A400538C64 /* hotreload */,
+				37D4FCB821CA37FB00496B69 /* js */,
+				37D4FCB921CA37FB00496B69 /* elements */,
+				37D4FCBA21CA37FB00496B69 /* behaviors */,
+				37D4FCCB21CB2EAF00496B69 /* hotreload */,
 			);
 			path = gic;
 			sourceTree = "<group>";
 		};
-		371B1DF621BF65B800538C64 /* js */ = {
+		37D4FCB821CA37FB00496B69 /* js */ = {
 			isa = PBXGroup;
 			children = (
+				37D4FCEE21CC86B200496B69 /* JSAPIExtension.h */,
+				37D4FCED21CC86B200496B69 /* JSAPIExtension.m */,
 			);
 			path = js;
 			sourceTree = "<group>";
 		};
-		371B1DF721BF65CE00538C64 /* elements */ = {
+		37D4FCB921CA37FB00496B69 /* elements */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = elements;
 			sourceTree = "<group>";
 		};
-		371B1DF821BF65DB00538C64 /* behaviors */ = {
+		37D4FCBA21CA37FB00496B69 /* behaviors */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = behaviors;
 			sourceTree = "<group>";
 		};
-		F1EA457B2DF27646289E21E0 /* Pods */ = {
+		37D4FCCB21CB2EAF00496B69 /* hotreload */ = {
 			isa = PBXGroup;
 			children = (
-				C73B216942A7766D9332A549 /* Pods-GICTutorial.debug.xcconfig */,
-				5F9A86772A7026CDBAE76975 /* Pods-GICTutorial.release.xcconfig */,
+				37D4FCD521CB7C6900496B69 /* GICFileWatcher.html */,
+				37D4FCCD21CB2EAF00496B69 /* GICXMLLayoutDevTools.h */,
+				37D4FCCC21CB2EAF00496B69 /* GICXMLLayoutDevTools.m */,
+			);
+			path = hotreload;
+			sourceTree = "<group>";
+		};
+		B2FB3237A50234287F1D3F13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2664D5E9FD19C1DB134EFBE1 /* Pods-GICTutorial.debug.xcconfig */,
+				1744B769CEFB5A5D60860BB2 /* Pods-GICTutorial.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -146,15 +163,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		371B1DD321BE73FF00538C64 /* GICTutorial */ = {
+		37D4FC9D21CA336E00496B69 /* GICTutorial */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 371B1DEA21BE740100538C64 /* Build configuration list for PBXNativeTarget "GICTutorial" */;
+			buildConfigurationList = 37D4FCB421CA336F00496B69 /* Build configuration list for PBXNativeTarget "GICTutorial" */;
 			buildPhases = (
-				FD5AC78AD3577356FE356591 /* [CP] Check Pods Manifest.lock */,
-				371B1DD021BE73FF00538C64 /* Sources */,
-				371B1DD121BE73FF00538C64 /* Frameworks */,
-				371B1DD221BE73FF00538C64 /* Resources */,
-				ACD8E1D99B8B0BD0A1F19012 /* [CP] Embed Pods Frameworks */,
+				8DCD6DA13262E5CF5FCE3B11 /* [CP] Check Pods Manifest.lock */,
+				37D4FC9A21CA336E00496B69 /* Sources */,
+				37D4FC9B21CA336E00496B69 /* Frameworks */,
+				37D4FC9C21CA336E00496B69 /* Resources */,
+				B7714B4D4BFE9011A74AD672 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,24 +179,24 @@
 			);
 			name = GICTutorial;
 			productName = GICTutorial;
-			productReference = 371B1DD421BE73FF00538C64 /* GICTutorial.app */;
+			productReference = 37D4FC9E21CA336E00496B69 /* GICTutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		371B1DCC21BE73FF00538C64 /* Project object */ = {
+		37D4FC9621CA336E00496B69 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "龚海伟";
 				TargetAttributes = {
-					371B1DD321BE73FF00538C64 = {
+					37D4FC9D21CA336E00496B69 = {
 						CreatedOnToolsVersion = 9.4;
 					};
 				};
 			};
-			buildConfigurationList = 371B1DCF21BE73FF00538C64 /* Build configuration list for PBXProject "GICTutorial" */;
+			buildConfigurationList = 37D4FC9921CA336E00496B69 /* Build configuration list for PBXProject "GICTutorial" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -187,66 +204,33 @@
 				en,
 				Base,
 			);
-			mainGroup = 371B1DCB21BE73FF00538C64;
-			productRefGroup = 371B1DD521BE73FF00538C64 /* Products */;
+			mainGroup = 37D4FC9521CA336E00496B69;
+			productRefGroup = 37D4FC9F21CA336E00496B69 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				371B1DD321BE73FF00538C64 /* GICTutorial */,
+				37D4FC9D21CA336E00496B69 /* GICTutorial */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		371B1DD221BE73FF00538C64 /* Resources */ = {
+		37D4FC9C21CA336E00496B69 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				371B1DE421BE740100538C64 /* LaunchScreen.storyboard in Resources */,
-				371B1DE121BE740100538C64 /* Assets.xcassets in Resources */,
-				371B1DEE21BF4C4E00538C64 /* project in Resources */,
-				371B1DDF21BE73FF00538C64 /* Main.storyboard in Resources */,
+				37D4FCAE21CA336F00496B69 /* LaunchScreen.storyboard in Resources */,
+				37D4FCD621CB7C6900496B69 /* GICFileWatcher.html in Resources */,
+				37D4FCEC21CC869700496B69 /* project in Resources */,
+				37D4FCAB21CA336F00496B69 /* Assets.xcassets in Resources */,
+				37D4FCA921CA336E00496B69 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		ACD8E1D99B8B0BD0A1F19012 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GICTutorial/Pods-GICTutorial-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GDataXMLNode_GIC/GDataXMLNode_GIC.framework",
-				"${BUILT_PRODUCTS_DIR}/GICJsonParser/GICJsonParser.framework",
-				"${BUILT_PRODUCTS_DIR}/GICXMLLayout/GICXMLLayout.framework",
-				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
-				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
-				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
-				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
-				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
-				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GDataXMLNode_GIC.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GICJsonParser.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GICXMLLayout.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GICTutorial/Pods-GICTutorial-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FD5AC78AD3577356FE356591 /* [CP] Check Pods Manifest.lock */ = {
+		8DCD6DA13262E5CF5FCE3B11 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -264,35 +248,73 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B7714B4D4BFE9011A74AD672 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GICTutorial/Pods-GICTutorial-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GDataXMLNode_GIC/GDataXMLNode_GIC.framework",
+				"${BUILT_PRODUCTS_DIR}/GICJsonParser/GICJsonParser.framework",
+				"${BUILT_PRODUCTS_DIR}/GICXMLLayout/GICXMLLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ZipArchive/ZipArchive.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GDataXMLNode_GIC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GICJsonParser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GICXMLLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZipArchive.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GICTutorial/Pods-GICTutorial-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		371B1DD021BE73FF00538C64 /* Sources */ = {
+		37D4FC9A21CA336E00496B69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				371B1DDC21BE73FF00538C64 /* ViewController.m in Sources */,
-				371B1DE721BE740100538C64 /* main.m in Sources */,
-				371B1DD921BE73FF00538C64 /* AppDelegate.m in Sources */,
-				371B1DF421BF62A400538C64 /* GICXMLLayoutDevTools.m in Sources */,
+				37D4FCA621CA336E00496B69 /* ViewController.m in Sources */,
+				37D4FCB121CA336F00496B69 /* main.m in Sources */,
+				37D4FCDC21CB82F700496B69 /* PackageManager.m in Sources */,
+				37D4FCEF21CC86B300496B69 /* JSAPIExtension.m in Sources */,
+				37D4FCA321CA336E00496B69 /* AppDelegate.m in Sources */,
+				37D4FCCE21CB2EAF00496B69 /* GICXMLLayoutDevTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		371B1DDD21BE73FF00538C64 /* Main.storyboard */ = {
+		37D4FCA721CA336E00496B69 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				371B1DDE21BE73FF00538C64 /* Base */,
+				37D4FCA821CA336E00496B69 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		371B1DE221BE740100538C64 /* LaunchScreen.storyboard */ = {
+		37D4FCAC21CA336F00496B69 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				371B1DE321BE740100538C64 /* Base */,
+				37D4FCAD21CA336F00496B69 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -300,7 +322,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		371B1DE821BE740100538C64 /* Debug */ = {
+		37D4FCB221CA336F00496B69 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,7 +380,7 @@
 			};
 			name = Debug;
 		};
-		371B1DE921BE740100538C64 /* Release */ = {
+		37D4FCB321CA336F00496B69 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -410,40 +432,40 @@
 			};
 			name = Release;
 		};
-		371B1DEB21BE740100538C64 /* Debug */ = {
+		37D4FCB521CA336F00496B69 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C73B216942A7766D9332A549 /* Pods-GICTutorial.debug.xcconfig */;
+			baseConfigurationReference = 2664D5E9FD19C1DB134EFBE1 /* Pods-GICTutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GICTutorial/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = GICTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = HP.GICTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		371B1DEC21BE740100538C64 /* Release */ = {
+		37D4FCB621CA336F00496B69 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F9A86772A7026CDBAE76975 /* Pods-GICTutorial.release.xcconfig */;
+			baseConfigurationReference = 1744B769CEFB5A5D60860BB2 /* Pods-GICTutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GICTutorial/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = GICTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = HP.GICTutorial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -453,25 +475,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		371B1DCF21BE73FF00538C64 /* Build configuration list for PBXProject "GICTutorial" */ = {
+		37D4FC9921CA336E00496B69 /* Build configuration list for PBXProject "GICTutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				371B1DE821BE740100538C64 /* Debug */,
-				371B1DE921BE740100538C64 /* Release */,
+				37D4FCB221CA336F00496B69 /* Debug */,
+				37D4FCB321CA336F00496B69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		371B1DEA21BE740100538C64 /* Build configuration list for PBXNativeTarget "GICTutorial" */ = {
+		37D4FCB421CA336F00496B69 /* Build configuration list for PBXNativeTarget "GICTutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				371B1DEB21BE740100538C64 /* Debug */,
-				371B1DEC21BE740100538C64 /* Release */,
+				37D4FCB521CA336F00496B69 /* Debug */,
+				37D4FCB621CA336F00496B69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 371B1DCC21BE73FF00538C64 /* Project object */;
+	rootObject = 37D4FC9621CA336E00496B69 /* Project object */;
 }

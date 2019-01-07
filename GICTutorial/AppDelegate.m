@@ -1,15 +1,10 @@
-//
-//  AppDelegate.m
-//  GICTutorial
-//
-//  Created by 龚海伟 on 2018/12/10.
-//  Copyright © 2018年 龚海伟. All rights reserved.
-//
-
 #import "AppDelegate.h"
 #import <GICXMLLayout/GICXMLLayout.h>
 #import <GICXMLLayout/GICRouter.h>
-#import "GICXMLLayoutDevTools.h"
+#import <GICXMLLayout/GICJSAPIManager.h>
+
+#import "JSAPIExtension.h"
+#import "PackageManager.h"
 
 @interface AppDelegate ()
 
@@ -19,20 +14,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
     // 注册gic类库默认所有元素
     [GICXMLLayout regiterAllElements];
     [GICRouter regiterAllElements];
     
-//    // 设置根目录
-//    [GICXMLLayout setRootUrl:[[NSBundle mainBundle].bundlePath stringByAppendingPathComponent:@"project"]];
-//    // 通过GIC来加载APP
-//    [GICRouter loadAPPFromPath:@"App.xml"];
+    // 注册JSAPI
+    [GICJSAPIManager addJSAPIRegisterClass:[JSAPIExtension class]];
     
-    // 用于hotreload 方式加载
-    {
-        [GICXMLLayout setRootUrl:@"http://localhost:8088"];
-        [GICXMLLayoutDevTools loadAPPFromPath:@"App.xml"];
-    }
+    // 使用包管理器来启动APP
+    [[PackageManager manage] start];
     return YES;
 }
 

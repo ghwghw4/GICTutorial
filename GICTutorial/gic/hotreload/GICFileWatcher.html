@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+</head>
+
+<body>
+	<script>
+		var ws;
+		function beginConnect(url) {
+			ws = new WebSocket(url, 'gicwatch');
+			ws.onopen = function (evt) {
+			};
+			ws.onmessage = function (evt) {
+				if (onmessage) {
+					onmessage(evt.data);
+				}
+			};
+			ws.onclose = function (evt) {
+				setTimeout(function () {
+					beginConnect(url);
+				}, 1000);
+			};
+		}
+	</script>
+</body>
+</html>

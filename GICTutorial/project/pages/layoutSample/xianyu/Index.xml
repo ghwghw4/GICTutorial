@@ -1,0 +1,116 @@
+<page title="闲鱼布局案例">
+    <behaviors>
+        <script path="./Index.js" />
+        <script private="true">
+            $el.dataContext = new Index();
+        </script>
+    </behaviors>
+    <templates>
+        <template t-name="product1">
+            <stack-panel>
+                <!-- 商品图片，并且按照1：1的比例来显示 -->
+                <ratio-panel ratio="1" background-color="gray">
+                    <dock-panel>
+                        <!-- 图片 -->
+                        <image url="{{cover}}" />
+                        <!-- 全新和包邮图标 -->
+                        <stack-panel dock-panel.horizal="0" dock-panel.vertical="2" space="2" is-horizon="true">
+                            <transforms>
+                                <!-- x和y方向偏移 -->
+                                <translate x="10" y="8" />
+                            </transforms>
+                            <!-- 全新图标 -->
+                            <if condition="{{ isNew }}">
+                                <dock-panel background-color="FB2A35" size="30 16" corner-radius="3">
+                                    <lable text="全新" font-size="10" font-color="white" />
+                                </dock-panel>
+                            </if>
+                            <!-- 包邮图标 -->
+                            <if condition="{{ baoyou }}">
+                                <dock-panel background-color="2F9AFE" size="30 16" corner-radius="3">
+                                    <lable text="包邮" font-size="10" font-color="white" />
+                                </dock-panel>
+                            </if>
+                        </stack-panel>
+                    </dock-panel>
+                </ratio-panel>
+                <inset-panel inset="10">
+                    <stack-panel space="5">
+                        <!-- 商品名称 -->
+                        <lable text="{{name}}" font-size="14" font-color="444444" lines="1" />
+                        <!-- 水平布局，并且垂直方向居中显示 -->
+                        <stack-panel is-horizon="true" align-items="2">
+                            <!-- 商品价格 -->
+                            <lable text="￥" font-color="FB2A35" font-size="12" />
+                            <lable text="{{price}}" font-color="FB2A35" font-size="16" />
+                            <!-- 想要数量 -->
+                            <lable text="{{want+'人想要'}}" font-color="gray" font-size="11" space-before="5" />
+                        </stack-panel>
+                        <!-- 用户信息 水平布局，并且垂直方向居中布局-->
+                        <stack-panel data-path="user" is-horizon="true" space="5" align-items="2">
+                            <!-- 头像 -->
+                            <dock-panel size="25" corner-radius="5" clips-bounds="true">
+                                <image background-color="gray" url="{{headIcon}}" />
+                                <!-- 右下角显示绿色小点 -->
+                                <panel size="8" background-color="49C856" dock-panel.horizal="2" dock-panel.vertical="2" border-color="white" border-width="2" corner-radius="4" />
+                            </dock-panel>
+                            <!-- 用户位置信息 -->
+                            <lable text="{{location.name}}" font-color="gray" font-size="10" />
+                            <!-- 信用显示在右边 -->
+                            <lable text="芝麻信用|极好" font-color="2EC5BE" font-size="10" flex-grow="1" text-align="2" />
+                        </stack-panel>
+                    </stack-panel>
+                </inset-panel>
+            </stack-panel>
+        </template>
+        <template t-name="tag">
+            <stack-panel>
+                <!-- 商品图片，并且按照1：1的比例来显示 -->
+                <ratio-panel ratio="1" background-color="gray">
+                    <image url="{{cover}}" />
+                </ratio-panel>
+                <stack-panel background-color="FEC225" align-items="2" space="5">
+                    <lable text="#任天堂" font-color="white" font-size="16" space-before="15" />
+                    <lable text="{{'有'+want+'人添加了该标签'}}" font-size="12" font-color="ffffffee"></lable>
+                    <stack-panel space-after="13" is-horizon="true" align-items="2" space="5">
+                        <panel>
+                            <for data-path="users">
+                                <image size="20" url="{{headIcon}}" corner-radius="10" position="{{ 13*$index+' 0' }}" />
+                            </for>
+                        </panel>
+                        <lable text="1000宝贝" font-size="10" font-color="ffffffee" />
+                    </stack-panel>
+                </stack-panel>
+            </stack-panel>
+        </template>
+        <template t-name="filters">
+            <inset-panel inset="0 10">
+                <stack-panel data-path="filters">
+                    <stack-panel space-before="20" is-horizon="true" align-items="2" space="10" justify-content="1">
+                        <panel size="30 1" background-color="light-gray" corner-radius="0.5" />
+                        <lable text="细选" font-size="16" font-color="111111" />
+                        <panel size="30 1" background-color="light-gray" corner-radius="0.5" />
+                    </stack-panel>
+                    <grid-panel columns="4" column-spacing="15" space-before="10" row-spacing="15" space-after="20">
+                        <for>
+                            <dock-panel background-color="E1E3E9" height="35" corner-radius="5">
+                                <lable text="{{}}" font-size="14" font-color="333333" />
+                            </dock-panel>
+                        </for>
+                    </grid-panel>
+                </stack-panel>
+            </inset-panel>
+        </template>
+    </templates>
+    <collection-view columns="2" row-spacing="10" content-inset="10" background-color="F0F2F8">
+        <section>
+            <for data-path="items">
+                <!-- 使用数据绑定的方式来确定每个cell对应的跨列数 -->
+                <list-item corner-radius="5" background-color="white" collection-view.column-span="{{ (type==3?2:1) }}">
+                    <!-- 使用数据绑定的方式动态选择不同的模板显示 -->
+                    <template-ref t-name="{{ this.typeToTemplateName(type) }}" />
+                </list-item>
+            </for>
+        </section>
+    </collection-view>
+</page>

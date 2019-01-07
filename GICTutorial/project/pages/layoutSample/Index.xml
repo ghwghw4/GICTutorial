@@ -1,0 +1,20 @@
+<page title="布局案例">
+    <behaviors>
+        <script path="./Index.js"/>
+        <script private="true">
+            $el.dataContext = new Index();
+        </script>
+    </behaviors>
+    <style path="/style/Style.xml"/>
+    <list>
+        <section>
+            <for data-path="items">
+                <list-item event-item-select="js:Router.push($item.path)">
+                    <inset-panel inset="15">
+                        <lable text="{{name}}" style="lable"/>
+                    </inset-panel>
+                </list-item>
+            </for>
+        </section>
+    </list>
+</page>
