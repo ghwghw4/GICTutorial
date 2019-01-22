@@ -1,0 +1,31 @@
+<!--等同于创建一个UIWindow-->
+<app>
+    <!--等同于创建一个UINavigationController,并且将背景色设为 white-->
+    <nav background-color="white">
+        <!--等同于创建一个UIViewController，并且将页面的title设为"GIC教程"-->
+        <page title="GIC">
+            <behaviors>
+                <script private="true">
+                    $el.dataContext = require('/data.json');
+                </script>
+            </behaviors>
+            <list>
+                <section>
+                    <for>
+                        <list-item>
+                            <inset-panel inset="10 15">
+                                <stack-panel space="10">
+                                    <stack-panel is-horizon="true" space="5" align-items="2">
+                                        <image url="{{headIcon}}" size="40" background-color="gray" corner-radius="20" />
+                                        <lable text="{{name}}" lines="1" />
+                                    </stack-panel>
+                                    <lable text="{{text}}" />
+                                </stack-panel>
+                            </inset-panel>
+                        </list-item>
+                    </for>
+                </section>
+            </list>
+        </page>
+    </nav>
+</app>

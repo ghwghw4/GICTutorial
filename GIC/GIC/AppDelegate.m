@@ -1,10 +1,6 @@
 #import "AppDelegate.h"
 #import <GICXMLLayout/GICXMLLayout.h>
 #import <GICXMLLayout/GICRouter.h>
-#import <GICXMLLayout/GICJSAPIManager.h>
-
-#import "JSAPIExtension.h"
-#import "PackageManager.h"
 
 @interface AppDelegate ()
 
@@ -15,16 +11,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
     // 注册gic类库默认所有元素
     [GICXMLLayout regiterAllElements];
     [GICRouter regiterAllElements];
     
-    // 注册JSAPI
-    [GICJSAPIManager addJSAPIRegisterClass:[JSAPIExtension class]];
-    
-    // 使用包管理器来启动APP
-    [[PackageManager manage] start];
+    // 设置根目录
+    [GICXMLLayout setRootUrl:[[NSBundle mainBundle].bundlePath stringByAppendingPathComponent:@"project"]];
+    // 通过GIC来加载APP
+    [GICRouter loadAPPFromPath:@"App.xml"];
     return YES;
 }
 

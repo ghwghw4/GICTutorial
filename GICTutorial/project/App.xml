@@ -1,6 +1,0 @@
-<app>
-    <!--等同于创建一个UINavigationController,并且将背景色设为 white-->
-    <nav background-color="white">
-       <root-page path="/pages/Index.xml"/>
-    </nav>
-</app>

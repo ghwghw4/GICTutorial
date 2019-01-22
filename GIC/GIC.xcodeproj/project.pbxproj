@@ -7,26 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3790F49621D319E40060EA85 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3790F49521D319E40060EA85 /* JavaScriptCore.framework */; };
 		37D4FCA321CA336E00496B69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D4FCA221CA336E00496B69 /* AppDelegate.m */; };
 		37D4FCA621CA336E00496B69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D4FCA521CA336E00496B69 /* ViewController.m */; };
 		37D4FCA921CA336E00496B69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D4FCA721CA336E00496B69 /* Main.storyboard */; };
 		37D4FCAB21CA336F00496B69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37D4FCAA21CA336F00496B69 /* Assets.xcassets */; };
 		37D4FCAE21CA336F00496B69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D4FCAC21CA336F00496B69 /* LaunchScreen.storyboard */; };
 		37D4FCB121CA336F00496B69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D4FCB021CA336F00496B69 /* main.m */; };
-		37D4FCCE21CB2EAF00496B69 /* GICXMLLayoutDevTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D4FCCC21CB2EAF00496B69 /* GICXMLLayoutDevTools.m */; };
-		37D4FCD621CB7C6900496B69 /* GICFileWatcher.html in Resources */ = {isa = PBXBuildFile; fileRef = 37D4FCD521CB7C6900496B69 /* GICFileWatcher.html */; };
-		37D4FCDC21CB82F700496B69 /* PackageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D4FCDB21CB82F700496B69 /* PackageManager.m */; };
-		37D4FCEC21CC869700496B69 /* project in Resources */ = {isa = PBXBuildFile; fileRef = 37D4FCEB21CC869700496B69 /* project */; };
-		37D4FCEF21CC86B300496B69 /* JSAPIExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D4FCED21CC86B200496B69 /* JSAPIExtension.m */; };
-		AA4C448539201CDE4645A994 /* Pods_GICTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BE371FC1A9E9275C2F3ECC /* Pods_GICTutorial.framework */; };
+		37D4FCC021CA380400496B69 /* project in Resources */ = {isa = PBXBuildFile; fileRef = 37D4FCBF21CA380400496B69 /* project */; };
+		F0DF1B72835CD008B6D40315 /* Pods_GIC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 457E1291945082346B84BA11 /* Pods_GIC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1744B769CEFB5A5D60860BB2 /* Pods-GICTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GICTutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-GICTutorial/Pods-GICTutorial.release.xcconfig"; sourceTree = "<group>"; };
-		2664D5E9FD19C1DB134EFBE1 /* Pods-GICTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GICTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GICTutorial/Pods-GICTutorial.debug.xcconfig"; sourceTree = "<group>"; };
-		3790F49521D319E40060EA85 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		37D4FC9E21CA336E00496B69 /* GICTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GICTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D4FC9E21CA336E00496B69 /* GIC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GIC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D4FCA121CA336E00496B69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37D4FCA221CA336E00496B69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		37D4FCA421CA336E00496B69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -36,15 +28,10 @@
 		37D4FCAD21CA336F00496B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37D4FCAF21CA336F00496B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37D4FCB021CA336F00496B69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		37D4FCCC21CB2EAF00496B69 /* GICXMLLayoutDevTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GICXMLLayoutDevTools.m; sourceTree = "<group>"; };
-		37D4FCCD21CB2EAF00496B69 /* GICXMLLayoutDevTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GICXMLLayoutDevTools.h; sourceTree = "<group>"; };
-		37D4FCD521CB7C6900496B69 /* GICFileWatcher.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = GICFileWatcher.html; sourceTree = "<group>"; };
-		37D4FCDA21CB82F600496B69 /* PackageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackageManager.h; sourceTree = "<group>"; };
-		37D4FCDB21CB82F700496B69 /* PackageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackageManager.m; sourceTree = "<group>"; };
-		37D4FCEB21CC869700496B69 /* project */ = {isa = PBXFileReference; lastKnownFileType = folder; name = project; path = build/project; sourceTree = "<group>"; };
-		37D4FCED21CC86B200496B69 /* JSAPIExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSAPIExtension.m; sourceTree = "<group>"; };
-		37D4FCEE21CC86B200496B69 /* JSAPIExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAPIExtension.h; sourceTree = "<group>"; };
-		D3BE371FC1A9E9275C2F3ECC /* Pods_GICTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GICTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37D4FCBF21CA380400496B69 /* project */ = {isa = PBXFileReference; lastKnownFileType = folder; path = project; sourceTree = "<group>"; };
+		457E1291945082346B84BA11 /* Pods_GIC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GIC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32CAB3EBF02DC7F34FDCBD6 /* Pods-GIC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GIC/Pods-GIC.debug.xcconfig"; sourceTree = "<group>"; };
+		E3BF179D1D2FA800E9D5C72A /* Pods-GIC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GIC.release.xcconfig"; path = "Pods/Target Support Files/Pods-GIC/Pods-GIC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,59 +39,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3790F49621D319E40060EA85 /* JavaScriptCore.framework in Frameworks */,
-				AA4C448539201CDE4645A994 /* Pods_GICTutorial.framework in Frameworks */,
+				F0DF1B72835CD008B6D40315 /* Pods_GIC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3790F49421D319E40060EA85 /* Frameworks */ = {
+		25D6DEA0EF3025551B50AE0D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3790F49521D319E40060EA85 /* JavaScriptCore.framework */,
-				D3BE371FC1A9E9275C2F3ECC /* Pods_GICTutorial.framework */,
+				B32CAB3EBF02DC7F34FDCBD6 /* Pods-GIC.debug.xcconfig */,
+				E3BF179D1D2FA800E9D5C72A /* Pods-GIC.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		37D4FC9521CA336E00496B69 = {
 			isa = PBXGroup;
 			children = (
-				37D4FCA021CA336E00496B69 /* GICTutorial */,
+				37D4FCA021CA336E00496B69 /* GIC */,
 				37D4FC9F21CA336E00496B69 /* Products */,
-				3790F49421D319E40060EA85 /* Frameworks */,
-				B2FB3237A50234287F1D3F13 /* Pods */,
+				25D6DEA0EF3025551B50AE0D /* Pods */,
+				3B4AD22AFFCA63924625BCDF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		37D4FC9F21CA336E00496B69 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				37D4FC9E21CA336E00496B69 /* GICTutorial.app */,
+				37D4FC9E21CA336E00496B69 /* GIC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		37D4FCA021CA336E00496B69 /* GICTutorial */ = {
+		37D4FCA021CA336E00496B69 /* GIC */ = {
 			isa = PBXGroup;
 			children = (
-				37D4FCEB21CC869700496B69 /* project */,
+				37D4FCBF21CA380400496B69 /* project */,
 				37D4FCB721CA37FB00496B69 /* gic */,
 				37D4FCA121CA336E00496B69 /* AppDelegate.h */,
 				37D4FCA221CA336E00496B69 /* AppDelegate.m */,
 				37D4FCA421CA336E00496B69 /* ViewController.h */,
 				37D4FCA521CA336E00496B69 /* ViewController.m */,
-				37D4FCDA21CB82F600496B69 /* PackageManager.h */,
-				37D4FCDB21CB82F700496B69 /* PackageManager.m */,
 				37D4FCA721CA336E00496B69 /* Main.storyboard */,
 				37D4FCAA21CA336F00496B69 /* Assets.xcassets */,
 				37D4FCAC21CA336F00496B69 /* LaunchScreen.storyboard */,
 				37D4FCAF21CA336F00496B69 /* Info.plist */,
 				37D4FCB021CA336F00496B69 /* main.m */,
 			);
-			path = GICTutorial;
+			path = GIC;
 			sourceTree = "<group>";
 		};
 		37D4FCB721CA37FB00496B69 /* gic */ = {
@@ -113,7 +97,6 @@
 				37D4FCB821CA37FB00496B69 /* js */,
 				37D4FCB921CA37FB00496B69 /* elements */,
 				37D4FCBA21CA37FB00496B69 /* behaviors */,
-				37D4FCCB21CB2EAF00496B69 /* hotreload */,
 			);
 			path = gic;
 			sourceTree = "<group>";
@@ -121,8 +104,6 @@
 		37D4FCB821CA37FB00496B69 /* js */ = {
 			isa = PBXGroup;
 			children = (
-				37D4FCEE21CC86B200496B69 /* JSAPIExtension.h */,
-				37D4FCED21CC86B200496B69 /* JSAPIExtension.m */,
 			);
 			path = js;
 			sourceTree = "<group>";
@@ -141,45 +122,34 @@
 			path = behaviors;
 			sourceTree = "<group>";
 		};
-		37D4FCCB21CB2EAF00496B69 /* hotreload */ = {
+		3B4AD22AFFCA63924625BCDF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				37D4FCD521CB7C6900496B69 /* GICFileWatcher.html */,
-				37D4FCCD21CB2EAF00496B69 /* GICXMLLayoutDevTools.h */,
-				37D4FCCC21CB2EAF00496B69 /* GICXMLLayoutDevTools.m */,
+				457E1291945082346B84BA11 /* Pods_GIC.framework */,
 			);
-			path = hotreload;
-			sourceTree = "<group>";
-		};
-		B2FB3237A50234287F1D3F13 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2664D5E9FD19C1DB134EFBE1 /* Pods-GICTutorial.debug.xcconfig */,
-				1744B769CEFB5A5D60860BB2 /* Pods-GICTutorial.release.xcconfig */,
-			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		37D4FC9D21CA336E00496B69 /* GICTutorial */ = {
+		37D4FC9D21CA336E00496B69 /* GIC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37D4FCB421CA336F00496B69 /* Build configuration list for PBXNativeTarget "GICTutorial" */;
+			buildConfigurationList = 37D4FCB421CA336F00496B69 /* Build configuration list for PBXNativeTarget "GIC" */;
 			buildPhases = (
-				8DCD6DA13262E5CF5FCE3B11 /* [CP] Check Pods Manifest.lock */,
+				1373B8A53BB107D1243938A2 /* [CP] Check Pods Manifest.lock */,
 				37D4FC9A21CA336E00496B69 /* Sources */,
 				37D4FC9B21CA336E00496B69 /* Frameworks */,
 				37D4FC9C21CA336E00496B69 /* Resources */,
-				B7714B4D4BFE9011A74AD672 /* [CP] Embed Pods Frameworks */,
+				2A686FD65F351AD2F8F5FEFE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GICTutorial;
-			productName = GICTutorial;
-			productReference = 37D4FC9E21CA336E00496B69 /* GICTutorial.app */;
+			name = GIC;
+			productName = GIC;
+			productReference = 37D4FC9E21CA336E00496B69 /* GIC.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -196,7 +166,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 37D4FC9921CA336E00496B69 /* Build configuration list for PBXProject "GICTutorial" */;
+			buildConfigurationList = 37D4FC9921CA336E00496B69 /* Build configuration list for PBXProject "GIC" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -209,7 +179,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				37D4FC9D21CA336E00496B69 /* GICTutorial */,
+				37D4FC9D21CA336E00496B69 /* GIC */,
 			);
 		};
 /* End PBXProject section */
@@ -220,9 +190,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				37D4FCAE21CA336F00496B69 /* LaunchScreen.storyboard in Resources */,
-				37D4FCD621CB7C6900496B69 /* GICFileWatcher.html in Resources */,
-				37D4FCEC21CC869700496B69 /* project in Resources */,
 				37D4FCAB21CA336F00496B69 /* Assets.xcassets in Resources */,
+				37D4FCC021CA380400496B69 /* project in Resources */,
 				37D4FCA921CA336E00496B69 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,7 +199,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8DCD6DA13262E5CF5FCE3B11 /* [CP] Check Pods Manifest.lock */ = {
+		1373B8A53BB107D1243938A2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -241,20 +210,20 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GICTutorial-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GIC-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B7714B4D4BFE9011A74AD672 /* [CP] Embed Pods Frameworks */ = {
+		2A686FD65F351AD2F8F5FEFE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GICTutorial/Pods-GICTutorial-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-GIC/Pods-GIC-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GDataXMLNode_GIC/GDataXMLNode_GIC.framework",
 				"${BUILT_PRODUCTS_DIR}/GICJsonParser/GICJsonParser.framework",
 				"${BUILT_PRODUCTS_DIR}/GICXMLLayout/GICXMLLayout.framework",
@@ -263,7 +232,6 @@
 				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
 				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
-				"${BUILT_PRODUCTS_DIR}/ZipArchive/ZipArchive.framework",
 				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -276,12 +244,11 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZipArchive.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GICTutorial/Pods-GICTutorial-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GIC/Pods-GIC-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -293,10 +260,7 @@
 			files = (
 				37D4FCA621CA336E00496B69 /* ViewController.m in Sources */,
 				37D4FCB121CA336F00496B69 /* main.m in Sources */,
-				37D4FCDC21CB82F700496B69 /* PackageManager.m in Sources */,
-				37D4FCEF21CC86B300496B69 /* JSAPIExtension.m in Sources */,
 				37D4FCA321CA336E00496B69 /* AppDelegate.m in Sources */,
-				37D4FCCE21CB2EAF00496B69 /* GICXMLLayoutDevTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,18 +398,18 @@
 		};
 		37D4FCB521CA336F00496B69 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2664D5E9FD19C1DB134EFBE1 /* Pods-GICTutorial.debug.xcconfig */;
+			baseConfigurationReference = B32CAB3EBF02DC7F34FDCBD6 /* Pods-GIC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = GICTutorial/Info.plist;
+				INFOPLIST_FILE = GIC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = HP.GICTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = HP.GIC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -454,18 +418,18 @@
 		};
 		37D4FCB621CA336F00496B69 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1744B769CEFB5A5D60860BB2 /* Pods-GICTutorial.release.xcconfig */;
+			baseConfigurationReference = E3BF179D1D2FA800E9D5C72A /* Pods-GIC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = GICTutorial/Info.plist;
+				INFOPLIST_FILE = GIC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = HP.GICTutorial;
+				PRODUCT_BUNDLE_IDENTIFIER = HP.GIC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -475,7 +439,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		37D4FC9921CA336E00496B69 /* Build configuration list for PBXProject "GICTutorial" */ = {
+		37D4FC9921CA336E00496B69 /* Build configuration list for PBXProject "GIC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37D4FCB221CA336F00496B69 /* Debug */,
@@ -484,7 +448,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37D4FCB421CA336F00496B69 /* Build configuration list for PBXNativeTarget "GICTutorial" */ = {
+		37D4FCB421CA336F00496B69 /* Build configuration list for PBXNativeTarget "GIC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37D4FCB521CA336F00496B69 /* Debug */,
