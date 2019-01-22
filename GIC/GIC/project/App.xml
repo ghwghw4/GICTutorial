@@ -1,7 +1,7 @@
 <!--等同于创建一个UIWindow-->
 <app>
     <!--等同于创建一个UINavigationController,并且将背景色设为 white-->
-    <nav background-color="white">
+    <!-- <nav background-color="white"> -->
         <!--等同于创建一个UIViewController，并且将页面的title设为"GIC教程"-->
         <page title="GIC">
             <behaviors>
@@ -27,5 +27,5 @@
                 </section>
             </list>
         </page>
-    </nav>
+    <!-- </nav> -->
 </app>
