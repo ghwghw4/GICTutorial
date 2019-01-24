@@ -84,15 +84,35 @@ CGFloat calcuCellHeight(NSDictionary *dict){
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSData *data = [NSData dataWithContentsOfFile:[[NSBundle mainBundle].bundlePath stringByAppendingPathComponent:@"data.json"]];
-    dataArray = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
     
-    // 初始化UITableView
-    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
-    tableView.delegate = self;
-    tableView.dataSource = self;
-    [tableView registerClass:[CustomTableViewCell class] forCellReuseIdentifier:@"CustomTableViewCell"];
-    [self.view addSubview:tableView];
+    // 加载列表
+    {
+        NSData *data = [NSData dataWithContentsOfFile:[[NSBundle mainBundle].bundlePath stringByAppendingPathComponent:@"data.json"]];
+        dataArray = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+
+        // 初始化UITableView
+        UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
+        tableView.delegate = self;
+        tableView.dataSource = self;
+        [tableView registerClass:[CustomTableViewCell class] forCellReuseIdentifier:@"CustomTableViewCell"];
+        [self.view addSubview:tableView];
+    }
+    
+//    // 测试动画
+//    {
+//        UIView *v = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+//        v.center = self.view.center;
+//        v.backgroundColor = [UIColor redColor];
+//        [self.view addSubview:v];
+//
+//        CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"transform.translation.x"];
+//        animation.fromValue = @(0);
+//        animation.toValue = @(100);
+//        animation.autoreverses = YES;
+//        animation.repeatCount = HUGE_VAL;
+//        animation.duration = 0.3;
+//        [v.layer addAnimation:animation forKey:@"translationAnimation"];
+//    }
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{

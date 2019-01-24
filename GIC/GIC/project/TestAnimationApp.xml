@@ -1,0 +1,13 @@
+<app>
+    <page>
+        <stack-panel background-color="white" align-items="2" justify-content="1">
+            <panel size="100" background-color="red">
+                <animations>
+                    <anim-transforms duration="0.3" repeat="-1" on="1" autoreverses="true"> 
+                        <anim-move from="0 0" to="100 0"/>
+                    </anim-transforms>
+                </animations>
+            </panel>
+        </stack-panel>
+    </page>
+</app>
